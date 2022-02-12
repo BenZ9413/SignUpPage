@@ -9,6 +9,60 @@
     <title>Sign up page</title>
 </head>
 <body>
-    
+    <div class='left-container'>
+        <div class='logo-container'>
+            <img id='logo' src="./logo.jpeg" alt="Logo">
+            <div class='logo-text'>Outdoor Club</div>
+        </div>
+        <div class='credits'>
+            Photo by <a href="https://unsplash.com/@dylancalluy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dylan Calluy</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </div>
+    </div>
+    <div class='right-container'>
+        <div class="top-container">
+            This is not a real online service! You know you need something
+            like this in your life to help you realize your deepest dreams.<br>
+            Sign up <em>now</em> to get started.<br>
+            <br>
+            You <em>know</em> you want to.
+        </div>
+        <form class="middle-container">
+            <div>Let's do this!</div>
+            <div class="form-container">
+                <ul class='left-form'>
+                    <li>
+                        <label for='firstName'>FIRST NAME</label>
+                        <input type="text" id='firstName' name='firstName'>
+                    </li>
+                    <li>
+                        <label for="email">EMAIL</label>
+                        <input type="email" id='email' name='email'>
+                    </li>
+                    <li>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id='password' name='password'>
+                    </li>
+                </ul>
+                <ul class='right-form'>
+                    <li>
+                        <label for="lastName">LAST NAME</label>
+                        <input type='text' id='lastName' name='lastName'>
+                    </li>
+                    <li>
+                        <label for="phoneNumber">PHONE NUMBER</label>
+                        <input type="tel" id='phoneNumber' name='phoneNumber'>
+                    </li>
+                    <li>
+                        <label for="confirmPassword">CONFIRM PASSWORD</label>
+                        <input type="password" id='confirmPassword' name='confirmPassword'>
+                    </li>
+                </ul>
+            </div>
+        </form>
+        <div class="bottom-container">
+            <button class='btnCreateAccount'>Create Account</button>
+            <div class='bottom-text'>Already have an account? <a href="#">Log in</a></div>
+        </div>
+    </div>
 </body>
 </html>
